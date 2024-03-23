@@ -1,6 +1,6 @@
 ## Obsidian Poimandres Theme
 
-![](dark.png)
+![](dark2.png)
 
 **A port of the popular [Poimandres](https://github.com/drcmda/poimandres-theme) code editor theme to [Obsidian](https://obsidian.md/). Enjoy a familiar and beautiful dark theme for your knowledge base! (NOTE: This is a work in progress)**
 
