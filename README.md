@@ -2,7 +2,7 @@
 
 ![](dark.png)
 
-**A port of the popular Poimandres code editor theme to Obsidian. Enjoy a familiar and beautiful dark theme for your knowledge base!**
+**A port of the popular Poimandres code editor theme to Obsidian. Enjoy a familiar and beautiful dark theme for your knowledge base! (NOTE: This is a work in progress)**
 
 ## Features
 
