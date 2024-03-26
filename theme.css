@@ -1,8 +1,3 @@
-:root {
-	--default-font: '"JetBrains Mono", monospace, "Inter", sans-serif';
-	--font-monospace: '"JetBrains Mono", monospace, "Source Code Pro", monospace';
-}
-
 body {
 	--radius-s: 0px;
 	--radius-m: 0px;
@@ -41,37 +36,25 @@ body {
 	--red: #d0679d;
 	--red1: #d34a4a;
 	--unknown: #ffffff;
-
-	/* Links and filters (might need further adjustment based on preference) */
-	--external-link-filter: invert(35%) sepia(28%) saturate(681%)
-		hue-rotate(192deg) brightness(94%) contrast(85%);
-	--link-external-filter: invert(35%) sepia(28%) saturate(681%)
-		hue-rotate(192deg) brightness(94%) contrast(85%);
 }
 
-.theme-light {
-	--background-primary: #fefeff;
-	--background-secondary: #fefefe;
-}
-
-.theme-dark,
-.theme-light {
-	--color_red_rgb: var(--red_x);
-	--color-red: var(--red);
+.theme-dark {
+	--color_red_rgb: var(--red);
+	--color_red: var(--red);
 	--color_purple_rgb: var(--magenta_x);
-	--color-purple: var(--magenta);
+	--color_purple: var(--magenta);
 	--color_green_rgb: var(--green_x);
-	--color-green: var(--green);
+	--color_green: var(--green);
 	--color_cyan_rgb: var(--cyan_x);
-	--color-cyan: var(--cyan);
+	--color_cyan: var(--cyan);
 	--color_blue_rgb: var(--blue_x);
-	--color-blue: var(--blue);
+	--color_blue: var(--blue);
 	--color_yellow_rgb: var(--yellow_x);
-	--color-yellow: var(--yellow);
+	--color_yellow: var(--yellow);
 	--color_orange_rgb: var(--orange_x);
-	--color-orange: var(--orange);
+	--color_orange: var(--orange);
 	--color_pink_rgb: var(--magenta_x);
-	--color-pink: var(--magenta);
+	--color_pink: var(--magenta);
 
 	--background-primary: var(--bg);
 	--background-primary-alt: var(--bg);
@@ -117,16 +100,16 @@ body {
 	--interactive-accent-hover: var(--fg);
 
 	--scrollbar-bg: var(--bg_dark2);
-	--scrollbar-thumb-bg: var(--comment);
+	--scrollbar-thumb-bg: var(--bg_dark);
 	--scrollbar-active-thumb-bg: var(--bg_dark);
 	--scrollbar-width: 0px;
 
-	--h1-color: var(--red);
-	--h2-color: var(--yellow);
-	--h3-color: var(--green);
-	--h4-color: var(--cyan);
+	--h1-color: var(--cyan);
+	--h2-color: var(--green);
+	--h3-color: var(--red);
+	--h4-color: var(--magenta);
 	--h5-color: var(--blue);
-	--h6-color: var(--magenta);
+	--h6-color: var(--yellow);
 
 	--border-width: 2px;
 
@@ -135,9 +118,9 @@ body {
 	--tag-color-hover: var(--cyan);
 	--tag-background-hover: rgba(var(--cyan_x), 0.15);
 
-	--link-color: var(--magenta);
+	--link-color: var(--fg_dark);
 	--link-color-hover: var(--cyan);
-	--link-external-color: var(--magenta);
+	--link-external-color: var(--fg_dark);
 	--link-external-color-hover: var(--cyan);
 
 	--checkbox-radius: 4px;
@@ -153,29 +136,39 @@ body {
 	--table-row-alt-background: var(--bg_dark);
 	--table-row-background-hover: var(--bg_dark2);
 
-	--flashing-background: rgba(var(--blue0_x), 0.3);
+	--flashing-background: var(--bg_dark);
 
 	--code-normal: var(--fg);
 	--code-background: var(--bg_highlight_dark);
+	--code-comment: var(--fg_dark);
+	--code-function: var(--cyan);
+	--code-important: var(--red_x);
+	--code-keyword: var(--green);
+	--code-operator: var(--fg_dark);
+	--code-property: var(--fg);
+	--code-punctuation: var();
+	--code-string: var(--green);
+	--code-tag: var(--red);
+	--code-value: var(--green);
 
 	--mermaid-note: var(--blue0);
 	--mermaid-actor: var(--fg_dark);
 	--mermaid-loopline: var(--blue);
 
 	--blockquote-background-color: var(--bg_dark);
-	--callout-default: var(--blue_x);
-	--callout-info: var(--blue_x);
-	--callout-summary: var(--cyan_x);
-	--callout-tip: var(--cyan_x);
-	--callout-todo: var(--cyan_x);
-	--callout-bug: var(--red_x);
-	--callout-error: var(--red1_x);
-	--callout-fail: var(--red1_x);
-	--callout-example: var(--magenta_x);
-	--callout-important: var(--green_x);
-	--callout-success: var(--teal_x);
-	--callout-question: var(--yellow_x);
-	--callout-warning: var(--orange_x);
+	--callout-default: var(--blue);
+	--callout-info: var(--blue);
+	--callout-summary: var(--cyan);
+	--callout-tip: var(--cyan);
+	--callout-todo: var(--cyan);
+	--callout-bug: var(--red);
+	--callout-error: var(--red1);
+	--callout-fail: var(--red1);
+	--callout-example: var(--magenta);
+	--callout-important: var(--green);
+	--callout-success: var(--teal);
+	--callout-question: var(--yellow);
+	--callout-warning: var(--orange);
 	--callout-quote: var(--fg_dark_x);
 
 	--icon-color-hover: var(--blue);
@@ -183,8 +176,8 @@ body {
 	--icon-color-active: var(--magenta);
 
 	--nav-item-color-hover: var(--fg);
-	--nav-item-background-hover: var(--bg_highlight);
-	--nav-item-color-active: var(--red);
+	--nav-item-background-hover: var(--bg_dark);
+	--nav-item-color-active: var(--green);
 	--nav-item-background-active: var(--bg_highlight);
 	--nav-file-tag: rgba(var(--yellow_x), 0.9);
 	--nav-indentation-guide-color: var(--bg_highlight);
