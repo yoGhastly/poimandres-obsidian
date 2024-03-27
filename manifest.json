@@ -1,7 +1,7 @@
 {
-	"name": "Poimandres Theme",
-	"version": "1.0.2",
+	"name": "Poimandres",
+	"version": "1.0.3",
 	"minAppVersion": "1.0.0",
 	"author": "Diego Espinosa",
-	"authorUrl": "https://github.com/yoGhastly/poimandres-obsidian"
+	"authorUrl": "https://github.com/yoGhastly"
 }
