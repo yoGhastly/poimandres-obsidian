@@ -51,7 +51,7 @@ body {
 	--color_blue: var(--blue);
 	--color_yellow_rgb: var(--yellow_x);
 	--color_yellow: var(--yellow);
-	--color_orange_rgb: var(--orange_x);
+	--color_orange_rgb: var(--orange);
 	--color_orange: var(--orange);
 	--color_pink_rgb: var(--magenta_x);
 	--color_pink: var(--magenta);
@@ -70,7 +70,7 @@ body {
 	--background-modifier-success: var(--green);
 	--background-modifier-error: var(--red1);
 	--background-modifier-error-hover: var(--red);
-	--background-modifier-cover: rgba(var(--bg_dark_x), 0.8);
+	--background-modifier-cover: rgba(var(--bg_dark), 0.8);
 	--background-modifier-hover: var(--accent-s);
 	--background-modifier-message: rgba(var(--bg_highlight_x), 0.9);
 	--background-modifier-active-hover: var(--bg);
@@ -81,11 +81,11 @@ body {
 	--text-error: var(--red);
 	--text-accent: var(--magenta);
 	--text-accent-hover: var(--cyan);
-	--text-error: var(--red1);
-	--text-error-hover: var(--red);
+	--text-error: var(--fg);
+	--text-error-hover: var(--fg);
 	--text-selection: var(--bg_highlight_dark);
 	--text-on-accent: var(--bg);
-	--text-highlight-bg: rgba(var(--orange_x), 0.4);
+	--text-highlight-bg: rgba(var(--orange), 0.4);
 	--bold-color: var(--cyan);
 	--italic-color: var(--cyan);
 
@@ -146,7 +146,7 @@ body {
 	--code-keyword: var(--green);
 	--code-operator: var(--fg_dark);
 	--code-property: var(--fg);
-	--code-punctuation: var();
+	--code-punctuation: var(--fg);
 	--code-string: var(--green);
 	--code-tag: var(--red);
 	--code-value: var(--green);
@@ -187,7 +187,7 @@ body {
 
 	--graph-line: var(--comment);
 	--graph-node: var(--fg);
-	--graph-node-tag: var(--orange);
+	--graph-node-tag: var(orange);
 	--graph-node-attachment: var(--blue);
 
 	--tab-text-color-focused-active: rgba(var(--red_x), 0.8);
