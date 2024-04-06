@@ -1,8 +1,21 @@
-## Obsidian Poimandres Theme
+<h3 align="center">
+	<img src="https://github.com/drcmda/poimandres-theme/blob/main/assets/dots.png" width="100" alt="Logo"/><br/>
+	Poimandres
+</h3>
 
-![](dark2.png)
+<p align="center">
+	<a href="https://github.com/yoGhastly/poimandres-obsidian/stargazers">
+		<img alt="Stargazers" src="https://img.shields.io/github/stars/yoGhastly/poimandres-obsidian?style=for-the-badge&logo=starship&color=5de4c7&logoColor=D9E0EE&labelColor=302D41"></a>
+	<a href="https://github.com/yoGhastly/poimandres-obsidian/releases/latest">
+		<img alt="Releases" src="https://img.shields.io/github/release/yoGhastly/poimandres-obsidian.svg?style=for-the-badge&logo=github&color=d0679d&logoColor=D9E0EE&labelColor=302D41"/></a>
+	<a href="https://github.com/yoGhastly/poimandres-obsidian/issues">
+		<img alt="Issues" src="https://img.shields.io/github/issues/yoGhastly/poimandres-obsidian?style=for-the-badge&logo=gitbook&color=FFFAC2&logoColor=D9E0EE&labelColor=302D41"></a>
+</p>
 
-**A port of the popular [Poimandres](https://github.com/drcmda/poimandres-theme) code editor theme to [Obsidian](https://obsidian.md/). Enjoy a familiar and beautiful dark theme for your knowledge base! (NOTE: This is a work in progress)**
+<p align="center">
+  A port of the popular <a href="https://github.com/drcmda/poimandres-theme">Poimandres</a> code editor theme to <a href="https://obsidian.md/">Obsidian</a>. Enjoy a familiar and beautiful dark theme for your knowledge base! (NOTE: This is a work in progress)
+</p>
+
 
 ## Features
 
