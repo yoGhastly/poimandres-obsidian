@@ -28,6 +28,7 @@ body {
 	--comment: #89ddff;
 	--blue0: #fffac2;
 	--cyan: #add7ff;
+	--cyan0: #8badcd;
 	--magenta: #fcc5e9;
 	--orange: #ff9a66;
 	--yellow: #deae68;
@@ -105,8 +106,8 @@ body {
 	--scrollbar-width: 0px;
 
 	--h1-color: var(--cyan);
-	--h2-color: var(--green);
-	--h3-color: var(--red);
+	--h2-color: var(--cyan0);
+	--h3-color: var(--green);
 	--h4-color: var(--magenta);
 	--h5-color: var(--blue);
 	--h6-color: var(--yellow);
@@ -114,9 +115,9 @@ body {
 	--border-width: 2px;
 
 	--tag-color: var(--magenta);
-	--tag-background: rgba(var(--magenta_x), 0.15);
+	--tag-background: var(--magenta_x);
 	--tag-color-hover: var(--cyan);
-	--tag-background-hover: rgba(var(--cyan_x), 0.15);
+	--tag-background-hover: var(--cyan_x);
 
 	--link-color: var(--fg_dark);
 	--link-color-hover: var(--cyan);
@@ -144,11 +145,11 @@ body {
 	--code-function: var(--cyan);
 	--code-important: var(--red_x);
 	--code-keyword: var(--green);
-	--code-operator: var(--fg_dark);
+	--code-operator: var(--cyan0);
 	--code-property: var(--fg);
-	--code-punctuation: var(--fg);
+	--code-punctuation: var(--cyan0);
 	--code-string: var(--green);
-	--code-tag: var(--red);
+	--code-tag: var(--fg_dark);
 	--code-value: var(--green);
 
 	--mermaid-note: var(--blue0);
@@ -176,7 +177,7 @@ body {
 	--icon-color-active: var(--magenta);
 
 	--nav-item-color-hover: var(--fg);
-	--nav-item-background-hover: var(--bg_dark);
+	--nav-item-background-hover: var(--cyan0);
 	--nav-item-color-active: var(--green);
 	--nav-item-background-active: var(--bg_highlight);
 	--nav-file-tag: rgba(var(--yellow_x), 0.9);
@@ -190,8 +191,8 @@ body {
 	--graph-node-tag: var(orange);
 	--graph-node-attachment: var(--blue);
 
-	--tab-text-color-focused-active: rgba(var(--red_x), 0.8);
-	--tab-text-color-focused-active-current: var(--red);
+	--tab-text-color-focused-active: var(--green);
+	--tab-text-color-focused-active-current: var(--unknown);
 
 	--modal-border-color: var(--bg_highlight);
 	--prompt-border-color: var(--bg_highlight);
