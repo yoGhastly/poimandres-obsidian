@@ -33,6 +33,7 @@ body {
 	--orange: #ff9a66;
 	--yellow: #deae68;
 	--green: #5de4c7;
+	--green0: #5cae9d;
 	--teal: #26bce0;
 	--red: #d0679d;
 	--red1: #d34a4a;
@@ -144,7 +145,7 @@ body {
 	--code-comment: var(--fg_dark);
 	--code-function: var(--cyan);
 	--code-important: var(--red_x);
-	--code-keyword: var(--unknown);
+	--code-keyword: var(--green0);
 	--code-operator: var(--cyan0);
 	--code-property: var(--fg);
 	--code-punctuation: var(--cyan0);
@@ -223,4 +224,9 @@ svg * {
 
 .menu-separator {
 	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
+}
+
+.tooltip {
+	color: var(--fg);
+	background-color: var(--bg_dark2);
 }
