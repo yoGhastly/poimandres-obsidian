@@ -71,9 +71,9 @@ body {
 	--background-modifier-success: var(--green);
 	--background-modifier-error: var(--red1);
 	--background-modifier-error-hover: var(--red);
-	--background-modifier-cover: rgba(var(--bg_dark), 0.8);
+	--background-modifier-cover: var(--bg_dark);
 	--background-modifier-hover: var(--accent-s);
-	--background-modifier-message: rgba(var(--bg_highlight_x), 0.9);
+	--background-modifier-message: var(--bg_highlight_x);
 	--background-modifier-active-hover: var(--bg);
 
 	--text-normal: var(--fg);
@@ -86,7 +86,7 @@ body {
 	--text-error-hover: var(--fg);
 	--text-selection: var(--bg_highlight_dark);
 	--text-on-accent: var(--bg);
-	--text-highlight-bg: rgba(var(--orange), 0.4);
+	--text-highlight-bg: var(--orange);
 	--bold-color: var(--cyan);
 	--italic-color: var(--cyan);
 
@@ -130,7 +130,7 @@ body {
 	--checkbox-marker-color: var(--green);
 	--checkbox-border-color: var(--comment);
 	--checkbox-border-color-hover: var(--comment);
-	--checklist-done-color: rgba(var(--green), 0.5);
+	--checklist-done-color: var(--green);
 
 	--table-header-background: var(--bg);
 	--table-header-background-hover: var(--bg_dark2);
@@ -176,11 +176,11 @@ body {
 	--icon-color-focused: var(--magenta);
 	--icon-color-active: var(--magenta);
 
-	--nav-item-color-hover: var(--fg);
+	--nav-item-color-hover: var(--bg_dark2);
 	--nav-item-background-hover: var(--cyan0);
 	--nav-item-color-active: var(--green);
 	--nav-item-background-active: var(--bg_highlight);
-	--nav-file-tag: rgba(var(--yellow_x), 0.9);
+	--nav-file-tag: var(--yellow_x);
 	--nav-indentation-guide-color: var(--bg_highlight);
 
 	--indentation-guide-color: var(--comment);
@@ -204,11 +204,6 @@ body {
 	--canvas-color: var(--bg_highlight_x);
 
 	--toggle-thumb-color: var(--bg);
-}
-
-.workspace-tab-header.is-active::before,
-.workspace-tab-header.is-active::after {
-	display: none;
 }
 
 svg * {
