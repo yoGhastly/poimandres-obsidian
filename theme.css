@@ -148,9 +148,9 @@ body {
 	--code-keyword: var(--green0);
 	--code-operator: var(--cyan0);
 	--code-property: var(--fg);
-	--code-punctuation: var(--red);
+	--code-punctuation: var(--green0);
 	--code-string: var(--green);
-	--code-tag: var(--fg_dark);
+	--code-tag: var(--green);
 	--code-value: var(--green);
 
 	--mermaid-note: var(--blue0);
