@@ -108,7 +108,7 @@ body {
 
 	--h1-color: var(--cyan);
 	--h2-color: var(--cyan0);
-	--h3-color: var(--green);
+	--h3-color: var(--unknown);
 	--h4-color: var(--magenta);
 	--h5-color: var(--blue);
 	--h6-color: var(--yellow);
@@ -148,7 +148,7 @@ body {
 	--code-keyword: var(--green0);
 	--code-operator: var(--cyan0);
 	--code-property: var(--fg);
-	--code-punctuation: var(--cyan0);
+	--code-punctuation: var(--red);
 	--code-string: var(--green);
 	--code-tag: var(--fg_dark);
 	--code-value: var(--green);
