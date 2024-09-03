@@ -115,11 +115,9 @@ body {
 	--interactive-normal: var(--bg_dark2);
 	--interactive-hover: var(--bg);
 	--interactive-success: var(--green);
-	--interactive-accent: hsl(
-		var(--accent-h),
-		var(--accent-s),
-		var(--accent-l)
-	);
+	--interactive-accent: hsl(var(--accent-h),
+			var(--accent-s),
+			var(--accent-l));
 	--interactive-accent-hover: var(--fg);
 
 	--scrollbar-bg: var(--bg_dark2);
@@ -195,7 +193,7 @@ body {
 	--callout-quote: var(--fg_dark);
 
 	--icon-color-hover: var(--blue0);
-	--icon-color-focused: var(--magenta);
+	--icon-color-focused: var(--teal);
 	--icon-color-active: var(--green);
 
 	--nav-item-color-hover: var(--unknown);
@@ -240,7 +238,7 @@ svg * {
 	padding-bottom: 0;
 }
 
-.menu > .item,
+.menu>.item,
 .menu-separator {
 	border-radius: 0;
 }
